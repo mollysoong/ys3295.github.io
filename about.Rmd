@@ -1,4 +1,6 @@
-### About
+---
+title: "About"
+---
 
 ![](profile.jpg){width=30%}
 

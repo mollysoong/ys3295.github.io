@@ -1,4 +1,4 @@
-name: "nicks-website"
+name: "website"
 output_dir: "."
 navbar:
   title: "Yan Song"
