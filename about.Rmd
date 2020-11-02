@@ -1,9 +1,12 @@
 ---
 title: "About"
-  toc: true
-  toc_float: true
-  theme: simplex
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: simplex
 ---
+# This is Yan Song's website
 
 ![](profile.jpg){width=30%}
 
