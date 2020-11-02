@@ -1,0 +1,104 @@
+#### EDUCATION
+
+**Columbia University Mailman Public Health**
+
+Master of Public Health (MPH), Biostatistics, expected May 2021 
+
+* Certificate in Toxicology 
+* Relevant coursework: Applied Regression (I& II), Statistical Computing with SAS, Data Science, Analysis of Categorical Data, Mathematical Statistics, Health Economics, Computational Toxi
+
+**University of Washington**
+
+Bachelor of Science in Biochemistry, received August 2017. Dean’s List.
+
+Capstone: Investigation on the Role of Epigenetic Regulators in the Acute Myeloid Leukemia
+
+#### RESEARCH EXPERIENCE
+
+**Columbia University, Mailman School of Public Health** \hfill Jul 2020-Present
+
+* Contribute to the design, analysis, and interpretation of different clinical study data using SAS
+
+* Supported with data visualization of different neurological and cardiovascular diseases along with influenza over time 
+
+* Examined the association between reperfusion injury and different stroke treatment 
+
+**CAS-MPG Partner Institute for Computational Biology (PICB) ** \hfill Mar 2019-Aug 2019
+
+* Contributed to written and used the manuscript draft for data collection, cleaning, processing and analysis of quantification of splicing events from RNA-seq data by different analytical methods (MISO, rMATS, PSI and VastTools)
+
+* Supported with the statistical analysis for the results of four main analytical methods for method comparison
+
+* Helped with developing and improved biostatistical analysis website
+
+**University of Washington** \hfill Aug 2017- Sep 2018
+
+* 	Contributed to data design, cleaning, processing and analysis of coral microbiome dataset using python
+
+* Applied statistical analysis to find relationship between vertical (brooding coral) verse horizontal (spawning coral) transmission and symbiont evolution
+
+* Examined the association between microbiomes in different reproduction type of corals and geography and compared the differences between two reproduction modes
+
+* Summarized presentation: GCMP Brooder verse Spawner Comparison
+
+* Participated in Global Coral Microbiome Project 
+
+**Undergraduate Research: Developing Novel Inhibitors of Ebola Virus** \hfill
+Jan 2017-Jul 2017
+
+*Objective: identify a small molecule to inhibit the reproduction of Ebola virus*
+
+* Identified an enzyme (5jq7) to be an inhibitor target
+
+* Performed a virtual screening to identify lead compound (3800)
+
+* Performed lead optimization of initial hits
+
+* Predicted toxicity and pharmacokinetic properties of optimized compounds 
+
+**Shanghai Institutes for Biological Sciences**, CAS  \hfill Aug 2016-Sep 2016
+
+* Participated in routine experiments to investigate the roles of epigenetic regulators in the AML with t(8;21) (q22; q22)
+
+* Helped with the establishment of a high throughout screening method to identify key epigenetic regulars involved in leukemogenesis of AML
+
+* Mastered skills for flow cytometry and animal models manipulation
+
+* Designed and completed a poster presentation on this topic
+
+#### PROFESSIONAL EXPERIENCE
+
+**Citizen Publication Health Literacy (CIPHER)** \hfill Jul 2020- Present
+
+* Helped with Qualtrics survey development and refinement for the pre and posttest 
+
+* Contributed to written IRB Consent Form including statistics section
+
+* Presented literature reviews at Journal Club meetings (attended by 20 members)
+
+* Supported with developing data analysis plan to measure the improvement after finishing the curriculum 
+
+#### VOLUNTEER
+
+**Editor, U.S.- China Health Summit** \hfill Jun 2020-Sep 2020 
+
+* Supported with collection, analysis and interpretation of daily data generated and used to report current COVID-19 pandemic
+
+* Contributed ideas for graph, polls and data visualization and other means of enhancing audience engagement  
+
+* Checked work of other editors and quality control of daily post
+
+#### CERTIFICATIONS AND SKILLS
+
+* **Experiment skills:** Molecular Cloning; PCR; Flow Cytometry; Animal Model Manipulation; Mammalian Cell Isolation and Culture; Enzyme digestion; Western blot.
+
+* **Computer Skills & Software:** Strong knowledge of MS Office (Word, Excel, PowerPoint); R; Python; LeTax; Virtual screening; Molecular docking; Origin Pro; Chimera; Igor Pro.
+
+* **Statistical Analysis:** Alpha diversity; Beta diversity; Compute core microbiome; Jackknifed beta diversity; Make distance boxplots; Alpha rarefaction; Beta diversity through plots; Group significance; Summarize taxa through boxplots; Regression Analysis; Survival Analysis.
+
+* **Language Skills: bilingual:** English and Chinese
+
+* **Certifications:** HIPAA Privacy and Security Essentials; Mental Health First Aid; CITI (human subjects research).
+
+
+ 

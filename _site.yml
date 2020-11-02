@@ -1,0 +1,21 @@
+name: "nicks-website"
+output_dir: "."
+navbar:
+  title: "Yan Song"
+  left:
+    - text: "Home"
+      href: index.html
+    - icon: fa-envelope fa-lg
+      href: mailto:ys3295@cumc.columbia.edu
+    - icon: fa-github fa-lg
+      href: http://github.com/mollysoong
+    - text: "About"
+      href: About.html
+    - text: "Dashboard"
+      href: dashboard.html
+    - text: "Resume"
+      href: Resume.html
+output:
+  html_document:
+    theme: simplex
+  

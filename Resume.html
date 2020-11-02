@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/simplex.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 41px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h2 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h3 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h4 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h5 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.section h6 {
+  padding-top: 46px;
+  margin-top: -46px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Yan Song</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="mailto:ys3295@cumc.columbia.edu">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/mollysoong">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="About.html">About</a>
+</li>
+<li>
+  <a href="dashboard.html">Dashboard</a>
+</li>
+<li>
+  <a href="Resume.html">Resume</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="education" class="section level4">
+<h4>EDUCATION</h4>
+<p><strong>Columbia University Mailman Public Health</strong></p>
+<p>Master of Public Health (MPH), Biostatistics, expected May 2021</p>
+<ul>
+<li>Certificate in Toxicology</li>
+<li>Relevant coursework: Applied Regression (I&amp; II), Statistical Computing with SAS, Data Science, Analysis of Categorical Data, Mathematical Statistics, Health Economics, Computational Toxi</li>
+</ul>
+<p><strong>University of Washington</strong></p>
+<p>Bachelor of Science in Biochemistry, received August 2017. Dean’s List.</p>
+<p>Capstone: Investigation on the Role of Epigenetic Regulators in the Acute Myeloid Leukemia</p>
+</div>
+<div id="research-experience" class="section level4">
+<h4>RESEARCH EXPERIENCE</h4>
+<p><strong>Columbia University, Mailman School of Public Health</strong> Jul 2020-Present</p>
+<ul>
+<li><p>Contribute to the design, analysis, and interpretation of different clinical study data using SAS</p></li>
+<li><p>Supported with data visualization of different neurological and cardiovascular diseases along with influenza over time</p></li>
+<li><p>Examined the association between reperfusion injury and different stroke treatment</p></li>
+</ul>
+<p><strong>CAS-MPG Partner Institute for Computational Biology (PICB) </strong> Mar 2019-Aug 2019</p>
+<ul>
+<li><p>Contributed to written and used the manuscript draft for data collection, cleaning, processing and analysis of quantification of splicing events from RNA-seq data by different analytical methods (MISO, rMATS, PSI and VastTools)</p></li>
+<li><p>Supported with the statistical analysis for the results of four main analytical methods for method comparison</p></li>
+<li><p>Helped with developing and improved biostatistical analysis website</p></li>
+</ul>
+<p><strong>University of Washington</strong> Aug 2017- Sep 2018</p>
+<ul>
+<li><p>Contributed to data design, cleaning, processing and analysis of coral microbiome dataset using python</p></li>
+<li><p>Applied statistical analysis to find relationship between vertical (brooding coral) verse horizontal (spawning coral) transmission and symbiont evolution</p></li>
+<li><p>Examined the association between microbiomes in different reproduction type of corals and geography and compared the differences between two reproduction modes</p></li>
+<li><p>Summarized presentation: GCMP Brooder verse Spawner Comparison</p></li>
+<li><p>Participated in Global Coral Microbiome Project</p></li>
+</ul>
+<p><strong>Undergraduate Research: Developing Novel Inhibitors of Ebola Virus</strong>  Jan 2017-Jul 2017</p>
+<p><em>Objective: identify a small molecule to inhibit the reproduction of Ebola virus</em></p>
+<ul>
+<li><p>Identified an enzyme (5jq7) to be an inhibitor target</p></li>
+<li><p>Performed a virtual screening to identify lead compound (3800)</p></li>
+<li><p>Performed lead optimization of initial hits</p></li>
+<li><p>Predicted toxicity and pharmacokinetic properties of optimized compounds</p></li>
+</ul>
+<p><strong>Shanghai Institutes for Biological Sciences</strong>, CAS Aug 2016-Sep 2016</p>
+<ul>
+<li><p>Participated in routine experiments to investigate the roles of epigenetic regulators in the AML with t(8;21) (q22; q22)</p></li>
+<li><p>Helped with the establishment of a high throughout screening method to identify key epigenetic regulars involved in leukemogenesis of AML</p></li>
+<li><p>Mastered skills for flow cytometry and animal models manipulation</p></li>
+<li><p>Designed and completed a poster presentation on this topic</p></li>
+</ul>
+</div>
+<div id="professional-experience" class="section level4">
+<h4>PROFESSIONAL EXPERIENCE</h4>
+<p><strong>Citizen Publication Health Literacy (CIPHER)</strong> Jul 2020- Present</p>
+<ul>
+<li><p>Helped with Qualtrics survey development and refinement for the pre and posttest</p></li>
+<li><p>Contributed to written IRB Consent Form including statistics section</p></li>
+<li><p>Presented literature reviews at Journal Club meetings (attended by 20 members)</p></li>
+<li><p>Supported with developing data analysis plan to measure the improvement after finishing the curriculum</p></li>
+</ul>
+</div>
+<div id="volunteer" class="section level4">
+<h4>VOLUNTEER</h4>
+<p><strong>Editor, U.S.- China Health Summit</strong> Jun 2020-Sep 2020</p>
+<ul>
+<li><p>Supported with collection, analysis and interpretation of daily data generated and used to report current COVID-19 pandemic</p></li>
+<li><p>Contributed ideas for graph, polls and data visualization and other means of enhancing audience engagement</p></li>
+<li><p>Checked work of other editors and quality control of daily post</p></li>
+</ul>
+</div>
+<div id="certifications-and-skills" class="section level4">
+<h4>CERTIFICATIONS AND SKILLS</h4>
+<ul>
+<li><p><strong>Experiment skills:</strong> Molecular Cloning; PCR; Flow Cytometry; Animal Model Manipulation; Mammalian Cell Isolation and Culture; Enzyme digestion; Western blot.</p></li>
+<li><p><strong>Computer Skills &amp; Software:</strong> Strong knowledge of MS Office (Word, Excel, PowerPoint); R; Python; LeTax; Virtual screening; Molecular docking; Origin Pro; Chimera; Igor Pro.</p></li>
+<li><p><strong>Statistical Analysis:</strong> Alpha diversity; Beta diversity; Compute core microbiome; Jackknifed beta diversity; Make distance boxplots; Alpha rarefaction; Beta diversity through plots; Group significance; Summarize taxa through boxplots; Regression Analysis; Survival Analysis.</p></li>
+<li><p><strong>Language Skills: bilingual:</strong> English and Chinese</p></li>
+<li><p><strong>Certifications:</strong> HIPAA Privacy and Security Essentials; Mental Health First Aid; CITI (human subjects research).</p></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

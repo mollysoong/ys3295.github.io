@@ -1,0 +1,98 @@
+---
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: column
+---
+“The Instacart Online Grocery Shopping Dataset 2017”, Accessed from  https://www.instacart.com/datasets/grocery-shopping-2017 on June 24, 2017.
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(p8105.datasets)
+library(leaflet)
+library(plotly)
+
+library(flexdashboard)
+```
+
+```{r, echo=FALSE}
+data(instacart)
+
+insta = instacart %>%
+  mutate(order_dow = recode(order_dow, 
+       "1"="Sunday",
+       "2"="Monday",
+       "3"="Tuesday",
+       "4"="Wednesday",
+       "5"="Thursday",
+       "6"="Friday",
+       "0"="Saturday"), 
+       order_dow = as.factor(order_dow)) %>%
+  mutate(order_dow = ordered(order_dow, levels = c("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")))
+
+```
+Column {data-width=450}
+--------------------------------------------------------------------
+
+### Days Since Prior Order & Number of Items in Order
+
+```{r, echo=FALSE}
+matrix_for_insta = insta %>%
+  filter(days_since_prior_order<30) %>%
+  group_by(days_since_prior_order) %>%
+  count(order_id) %>%
+  select(-order_id) %>%
+  rename(order_size = n) %>%
+  group_by(days_since_prior_order, order_size) %>%
+  count(order_size) %>%
+  pivot_wider(names_from = days_since_prior_order , values_from= n)%>%
+  as.matrix()
+  plot_ly(z = matrix_for_insta, type = "heatmap") %>%
+  layout(xaxis = list(title = "Days Since Prior Order"), yaxis = list(title = "Number of Items in Order"))
+``` 
+
+### About the graphs
+
+* Instacart users tend to order more items when they
+has a long period between two orders. However, the 
+most people submit an new order has around 6 items 
+7 days after they purchased an order.
+
+* The size of the order does not strongly depend on 
+the day of the week. However, the size of orders on 
+Fridays tends to be larger.
+
+* We see that the most orders come in on Saturdays
+and the produce seems to be the most popular items. 
+
+
+Column {data-width=450}
+--------------------------------------------------------------------
+
+### Number of Orders by Day
+
+```{r, echo=FALSE}
+
+  insta %>%
+  group_by(department, order_dow) %>%
+  summarize(num_orders= n_distinct(order_id)) %>%
+  mutate(text_label = str_c("Department:", department)) %>% 
+  plot_ly(x = ~order_dow, y = ~num_orders, color=~ department) %>%
+  add_bars() %>%
+  layout(barmode = "stack", xaxis = list(title = "Day of the Week"), yaxis = list(title = "Number of Orders"))
+
+```
+
+### The Item Number in Each Order Varied by Week
+
+```{r, echo=FALSE}
+insta %>%
+  group_by(order_dow) %>%
+  count(order_id) %>%
+  plot_ly(x = ~order_dow, y = ~n, type = "box") %>%
+  layout(xaxis = list(title = "Day of the Week"), yaxis = list(title = "Number of Items in Order"))
+  
+``` 
+
