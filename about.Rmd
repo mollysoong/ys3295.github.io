@@ -1,5 +1,8 @@
 ---
 title: "About"
+  toc: true
+  toc_float: true
+  theme: simplex
 ---
 
 ![](profile.jpg){width=30%}
